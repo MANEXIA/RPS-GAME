@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RPS GAME</title> 
+    <meta charset="UTF-8">
+    <meta name="Author" content="MG">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/13091db6b9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <header>
+     <div class="title">
+       <p>ROCK PAPER SCISSORS GAME</p>
+     </div>
+  </header>
+  
+  <main>
+
+  <div class="container">
+     <div class="row">
+
+       <div class="scores">
+        <h3>Most highest score in 3 rounds Wins</h3>
+        <h1>ROUND:<span id="gamerounds"></span></h1>
+         <h2>SCORES</h2>
+        </div>
+       <div class="img1">   
+         <img src="img/rock.png" id="user">
+         <h3 style="color: rgb(61, 61, 232);">YOU:<span id="userscore"></span></h3> 
+        </div>
+       <div class="img2">  
+         <img src="img/rock.png" id="bot">  
+        <h3 style="color: rgb(223, 61, 61);">BOT:<span id="botscore"></span></h3>
+      </div>
+
+       <div class="rps-buttons">
+        <button type="button" id="rock">ROCK</button>
+        <button type="button" id="paper">PAPER</button>
+        <button type="button" id="scissor">SCISSOR</button>
+       </div>
+
+      <div class="buttons">
+       <button type="button" id="reset">RESET</button>
+      </div>
+
+     </div>
+     <h1 style="text-align: center;" id="outcomeround"></h1>
+     <h1 style="text-align: center;" id="outcome"></h1>
+  </div>
+   
+  </main>
+  
+  <script src="index.js"></script>  
+</body>
+</html>
